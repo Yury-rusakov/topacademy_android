@@ -1,10 +1,13 @@
-package com.example.topacademy_android
-import com.example.topacademy_android.CarAdapter
+package com.example.topacademy_android.ui
+
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.topacademy_android.Car
+import com.example.topacademy_android.R
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

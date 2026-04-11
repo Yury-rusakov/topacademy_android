@@ -1,4 +1,4 @@
-package com.example.topacademy_android
+package com.example.topacademy_android.ui
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +6,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.topacademy_android.Car
+import com.example.topacademy_android.R
 
 class CarAdapter(private val carList: List<Car>, private val onClick: (Car) -> Unit) :
     RecyclerView.Adapter<CarAdapter.CarViewHolder>() {
